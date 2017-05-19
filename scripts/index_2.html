@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/style_2.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" title="Logo">
+            <img src="../assets/images/4linux.png" alt="Logo" width="100" height="100" />
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <label for="menu1">Link</label>
+                    <input id="menu1" type="checkbox">
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li>
+                            <a href="#">Link</a>
+                            <ul>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <ul id="lista_2">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+
+    <section>
+        <h1>
+            Titulo
+        </h1>
+
+        <form>
+            <label>
+                Nome
+                <input type="text" name="name" required>
+            </label>
+            <label>
+                Data de nascimento
+                <input type="number" name="birthdate" required>
+            </label>
+            <label>
+                Sobrenome
+                <input type="text" name="surname" required>
+            </label>
+            <label>
+                RG
+                <input type="text" name="rg" required pattern="(^(\d{2}\x2E\d{3}\x2E\d{3}[-]\d{1})$|^(\d{2}\x2E\d{3}\x2E\d{3})$)" >
+            </label>
+            <label>
+                Descricao
+                <textarea name="deion"></textarea>
+            </label>
+
+            <button type="submit">
+                ENVIAR
+            </button>
+
+            <button type="reset">
+                LIMPAR
+            </button>
+
+
+        </form>
+
+        <ul id="lista_3">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>

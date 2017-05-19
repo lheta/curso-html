@@ -1,0 +1,14 @@
+.icon{
+	background-image: url("../images/spte.png");
+	background-size: 150px auto;
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 28px;
+}
+
+.icon-facebook{
+	background-position: -29px -1px;
+}
+.icon-twitter{
+	background-position: -1px -1px;
+}
